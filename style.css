@@ -1,0 +1,96 @@
+html {
+      -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  background-color: #EEEEEE;
+}
+
+#main {
+  display: inline-block;
+  padding: 10px 0;
+  margin: 30px;
+  background-color: #FFFFFF;
+}
+
+#chart {
+  shape-rendering: crispEdges;
+}
+
+g rect {
+    cursor: pointer;
+}
+
+#tooltip {
+  color: white;
+  position: absolute;
+  width: auto;
+  height: auto;
+  z-index: 3;
+  padding: 12px;
+  pointer-events: none;
+  text-align: center;
+    /* Fallback for web browsers that doesn't support RGBa */
+  background: rgb(0, 0, 0);
+  /* RGBa with 0.6 opacity */
+  background: rgba(0, 0, 0, 0.85);
+            pointer-events: none;
+                  -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+}
+
+#tooltip.hidden {
+  display: none;
+}
+
+.shadow {
+
+            -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+            box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* text styling */
+
+h1 {
+  font-size: 2.33em; 
+  font-weight: 900;
+  margin: 0 0 .33em 0;
+}
+
+h2, h3, h4 {
+  margin: 0;
+}
+
+p {
+  font-size: .66em;
+  font-weight: normal;
+  margin: 0;
+}
+
+.axis {
+  font-size: 12px;
+}
+
+.y.label, .x.label {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.y.axis path, .y.axis line  {
+  stroke: none;
+}
+
+.legend {
+  font-size: 12px;
+}
+
+
+
+
